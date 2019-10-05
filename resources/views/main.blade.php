@@ -9,9 +9,16 @@
 
     {{-- <img src="/images/main_logo.png" width="500" height="500"> --}}
         <br>
-    <table width ="600"align="center">
-
-    </table>
+        <div id="search_box2">
+            <form action="/page/board/search_result.php" method="get">
+            <select name="catgo">
+              <option value="title">제목</option>
+              <option value="name">글쓴이</option>
+              <option value="content">내용</option>
+            </select>
+            <input type="text" name="search" size="60" required="required"/> <button>검색</button>
+          </form>
+        </div>
 
 <br><br>
 <hr width="700">
@@ -43,23 +50,6 @@
 </table>
 <br><br>
 <hr width="700">
-<br>
-
-
-<div id="search_box2">
-    <form action="/page/board/search_result.php" method="get">
-    <select name="catgo">
-      <option value="title">제목</option>
-      <option value="name">글쓴이</option>
-      <option value="content">내용</option>
-    </select>
-    <input type="text" name="search" size="40" required="required"/> <button>검색</button>
-  </form>
-</div>
-
-
-
-<br><br><br><br><br><br><br>
 </div>
 
 @endsection
