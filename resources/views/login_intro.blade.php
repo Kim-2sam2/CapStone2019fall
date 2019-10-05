@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="login_intro">
-        {{-- <img src="/images/button_background.jpg" width="1250" height="700"> --}}
+        {{-- <img src="/images/button_background.png" width="1250" height="700"> --}}
 <!DOCTYPE html>
 <html>
 <head>
