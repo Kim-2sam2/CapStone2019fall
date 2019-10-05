@@ -1,31 +1,29 @@
 <div id="topmenu">
-    <div class="logo"><a href="{{ url('/') }}"><img src="/images/logo.png" height="60px" width="auto"></a></div>
+    <div class="logo"><a href="{{ url('/') }}"><img src="/images/logo.jpg" height="60px" width="auto"></a></div>
     <ul class="menu-list">
         <li class="menu">
-            <div class="dropbtn">대회소개</div>
+            <div class="dropbtn">프로그램소개</div>
             <ul class="submenu">
-                <li><a href="{{ url('/guideline') }}">공모요강</a></li>
-                <li><a href="{{ url('/greet') }}">인사말</a></li>
+                <li><a href="{{ url('/') }}">공모요강</a></li>
+                <li><a href="{{ url('/') }}">인사말</a></li>
             </ul>
         </li>
         <li class="menu">
-            <div class="dropbtn">접수하기</div>
+            <div class="dropbtn">도서검색</div>
             <ul class="submenu">
-                <li><a href="{{ url('/guideline') }}">접수하기</a></li>
-                <li><a href="{{ url('/guideline') }}">접수확인</a></li>
+                <li><a href="{{ url('/') }}">접수하기</a></li>
+                <li><a href="{{ url('/') }}">접수확인</a></li>
             </ul>
         </li>
         <li class="menu">
             <div class="dropbtn">공지사항</div>
             <ul class="submenu">
-                <li><a href="{{ url('/notice') }}">공지사항</a></li>
-                <li><a href="{{ url('/faq') }}">질의응답</a></li>
-                <li><a href="{{ url('/reference') }}">자료실</a></li>
+                <li><a href="{{ url('/') }}">공지사항</a></li>
+                <li><a href="{{ url('/') }}">질의응답</a></li>
+                <li><a href="{{ url('/') }}">자료실</a></li>
             </ul>
         </li>
-        <li class="menu">
-            <div class="dropbtn">모의투자</div>
-        </li>
+
         @auth
         <li class="menu">
             <div class="dropbtn">

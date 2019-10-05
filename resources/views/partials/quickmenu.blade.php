@@ -6,21 +6,15 @@
     @endif
 
     @if (\Request::is('guideline'))
-    <div class="squarebutton paper on"><a href ={{ url('/guideline') }}>공모요강</a></div>
+    <div class="squarebutton paper on"><a href ={{ url('/guideline') }}>소개</a></div>
     @else
-    <div class="squarebutton paper"><a href ={{ url('/guideline') }}>공모요강</a></div>
+    <div class="squarebutton paper"><a href ={{ url('/guideline') }}>소개</a></div>
     @endif
 
     @if (\Request::is('receipt'))
-    <div class="squarebutton paper on"><a href ={{ url('/receipt') }}>접수하기</a></div>
+    <div class="squarebutton paper on"><a href ={{ url('/receipt') }}>도서검색</a></div>
     @else
-    <div class="squarebutton paper"><a href ={{ url('/receipt') }}>접수하기</a></div>
-    @endif
-
-    @if (\Request::is('faq'))
-    <div class="squarebutton paper on"><a href ={{ url('/faq') }}>FAQ</a></div>
-    @else
-    <div class="squarebutton paper"><a href ={{ url('/faq') }}>FAQ</a></div>
+    <div class="squarebutton paper"><a href ={{ url('/receipt') }}>도서검색</a></div>
     @endif
 
     @if (\Request::is('login'))
