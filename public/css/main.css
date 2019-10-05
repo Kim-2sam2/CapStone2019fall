@@ -9,7 +9,7 @@ li {
   font-family: "EBSJSK Bold";
   top: 0;
   position: fixed;
-  background-image: url("/images/manu_background.png");
+  background-image: url("/images/manu_background.jpg");
   color: black;
   width: 100%;
   height: 80px;
@@ -52,7 +52,7 @@ li {
 
 #quickmenu .paper {
   background-color: #eee;
-  background-image: url("/images/button_background.png");
+  background-image: url("/images/button_background.jpg");
   box-shadow: inset 0 0 0 0.1em rgba(0, 0, 0, 0.1), inset 0 0 1em rgba(0, 0, 0, 0.05), 0 0.1em 0.25em rgba(0, 0, 0, 0.5);
   position: relative;
 }

@@ -3,9 +3,11 @@
 @section('content')
 <div class="main_title" align="center">
         <br><br>
-    <h5>안녕하세요 선화에여</h5>
+    <h5>573돌 한글날 기념</h5>
     <h5>'우리말과 문화 활성화를 위한 기획안 및 창업 아이템 모의 투자대회(크라우드펀딩 대회)'</h5>
         <br><br>
+    <h6>주최<br>문화체육관광부</h6>
+    <h6>주관<br>한남대학교 국어문화원, 크루이슬러 주식회사</h6>
     <img src="/images/main_logo.png" width="500" height="500">
         <br>
     <table width ="600"align="center">
