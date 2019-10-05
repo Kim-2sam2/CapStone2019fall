@@ -16,14 +16,15 @@
             body{
                 width: 100%;
                 margin: 0;
-                background: url('/images/background.jpg');
+                background-color: #454545
+
 
             }
             img {
                 max-width: 100%;
             }
             .main_title{
-                background: url('/images/banner.png') no-repeat top center;
+                //background: url('/images/banner.png') no-repeat top center;
             }
             .contents{
                 margin: 0px auto;

@@ -7,22 +7,10 @@
     <h5>'Capstone Project - Cre8'</h5>
         <br><br>
 
-    <img src="/images/main_logo.png" width="500" height="500">
+    {{-- <img src="/images/main_logo.png" width="500" height="500"> --}}
         <br>
     <table width ="600"align="center">
-            <thead>
-                    <tr align="center">
-                            <th>    <img src="/images/main_logo2.png" width="250" height="250">
-                            </th>
-                            <th>    <img src="/images/main_logo3.png" width="250" height="250">
-                            </th>
-                        </tr>
 
-                <tr align="center">
-                    <th>총 150만원 상당의 상금</th>
-                    <th>HSV 창업 경진대회 본선 진출 티켓<br>(총 상금 1,200만원) </th>
-                </tr>
-            </thead>
     </table>
 
 <br><br>
@@ -57,8 +45,20 @@
 <hr width="700">
 <br>
 
-<a href="https://www.mcst.go.kr/kor/main.jsp"><img src="/images/main_logo4.png" width="250" height="50"></a>
-<a href="https://www.mcst.go.kr/kor/main.jsp"><img src="/images/main_logo5.png" width="350" height="45" style="padding-left: 50px;"></a>
+
+<div id="search_box2">
+    <form action="/page/board/search_result.php" method="get">
+    <select name="catgo">
+      <option value="title">제목</option>
+      <option value="name">글쓴이</option>
+      <option value="content">내용</option>
+    </select>
+    <input type="text" name="search" size="40" required="required"/> <button>검색</button>
+  </form>
+</div>
+
+
+
 <br><br><br><br><br><br><br>
 </div>
 
