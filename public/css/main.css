@@ -62,3 +62,8 @@ li {
           filter: brightness(70%);
 }
 
+#main_title {
+    font-family: "BMHANNA11yrsold";
+    display: block; margin: 0px auto;
+    color: #f6e7d9;
+}
