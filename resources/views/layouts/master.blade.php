@@ -76,10 +76,10 @@
             .banner1{
                 display: block; margin: 0px auto;
             }
-            .main_title{
+            /* .main_title{
                 display: block; margin: 0px auto;
                 color: #f6e7d9;
-            }
+            } */
         </style>
     </head>
     <body>
