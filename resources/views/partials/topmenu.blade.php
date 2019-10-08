@@ -10,9 +10,12 @@
         </li>
         <li class="menu">
             <div class="dropbtn">도서검색</div>
+        </li>
+        <li class="menu">
+            <div class="dropbtn">도서관 안내</div>
             <ul class="submenu">
-                <li><a href="{{ url('/') }}">접수하기</a></li>
-                <li><a href="{{ url('/') }}">접수확인</a></li>
+                <li><a href="{{ url('/') }}">이용 안내</a></li>
+                <li><a href="{{ url('/') }}">층별 이용 안내</a></li>
             </ul>
         </li>
         <li class="menu">

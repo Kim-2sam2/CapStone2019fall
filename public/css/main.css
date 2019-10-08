@@ -62,3 +62,12 @@ li {
           filter: brightness(70%);
 }
 
+#detailsearch:hover{
+background-color :brown;
+color : #eee;
+}
+
+#search:hover{
+    background-color :black;
+    color : #eee;
+    }
