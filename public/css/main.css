@@ -62,7 +62,6 @@ li {
           filter: brightness(70%);
 }
 
-<<<<<<< HEAD
 #detailsearch:hover{
 background-color :brown;
 color : #eee;
@@ -72,10 +71,3 @@ color : #eee;
     background-color :black;
     color : #eee;
     }
-=======
-#main_title {
-    font-family: "BMHANNA11yrsold";
-    display: block; margin: 0px auto;
-    color: #f6e7d9;
-}
->>>>>>> 981b1ca4dd4e40f9729c1102a9ecd4872a07e6b1
