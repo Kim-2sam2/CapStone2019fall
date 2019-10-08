@@ -62,12 +62,24 @@ li {
           filter: brightness(70%);
 }
 
-#detailsearch:hover{
-background-color :brown;
-color : #eee;
+#detailsearch{
+color : black;
+border-radius:10px;
 }
-
-#search:hover{
+#detailsearch:hover{
     background-color :black;
     color : #eee;
+    border-radius:10px;
     }
+#search{
+
+    color : black;
+    border-radius:10px;
+
+    }
+    #search:hover{
+        background-color :rgb(16, 39, 88);
+        color : #eee;
+        border-radius:10px;
+
+        }

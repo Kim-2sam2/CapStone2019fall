@@ -65,7 +65,7 @@
                 padding: 20px;
                 visibility: hidden;
                 position: absolute;
-                background-image: url('/images/manu_background.jpg');
+                background-image: url("/images/button_background.jpg");
                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,3);
                 opacity: 0;
                 top: 80px;
