@@ -15,7 +15,7 @@
             <div class="dropbtn">도서관 안내</div>
             <ul class="submenu">
                 <li><a href="{{ url('/') }}">이용 안내</a></li>
-                <li><a href="{{ url('/') }}">층별 이용 안내</a></li>
+                <li><a href="{{ url('/floor') }}">층별 이용 안내</a></li>
             </ul>
         </li>
         <li class="menu">
