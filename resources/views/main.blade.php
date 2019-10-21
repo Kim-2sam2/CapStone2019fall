@@ -34,7 +34,7 @@
                 <td style="padding-left: 120px;">우리말과 문화를 사랑하는 누구나</td>
             </tr>
             <tr>
-                    <td rowspan="4"> <h1><u>응모 기간ㄴㄴ</u></h1></td>
+                    <td rowspan="4"> <h1><u>응모 기간</u></h1></td>
                     <td style="padding-left: 120px;">응모 기간 : 2019. 9. 9.(월)~2019. 10. 25.(금)</td>
 
                 </tr>
