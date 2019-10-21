@@ -30,7 +30,7 @@
 <table width ="600"align="center">
         <thead>
             <tr>
-                <td > <h1><u>응모자격</u></h1></td>
+                <td > <h1><u>응모</u></h1></td>
                 <td style="padding-left: 120px;">우리말과 문화를 사랑하는 누구나</td>
             </tr>
             <tr>
