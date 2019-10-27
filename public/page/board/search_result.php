@@ -2,11 +2,13 @@
 <?php
 
 
-
+//연결 임시로 이 코드에 선언 , 라라벨 문법에 맞춰서 수정 필요
 $connect = mysqli_connect('127.0.0.1', 'root', '', 'cre8library', '3306');
-$sql = "";
-// 2. 글 데이터 불러오기
+// 프로시저 저장용 변수
+$sql = ""; 
+// 어느 항목으로 책을 검색하는지
 $type = $_GET['catgo'];
+
 
     if($type== "name"){
         $sql = "CALL usp_books_search_Author('".$_GET['search']."')"; // 저자
