@@ -20,7 +20,6 @@ gp.setup(7,gp.OUT)
 gp.setup(11,gp.OUT)
 gp.setup(12,gp.OUT)
 
-
 scanData = set()
 
 WIDTH, HEIGH = 1280, 720
